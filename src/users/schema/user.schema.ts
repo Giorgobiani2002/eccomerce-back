@@ -1,6 +1,12 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import mongoose from 'mongoose';
 
+//!და კოლექციები
+//უნდა ქონდეს products
+//უნდა ქონდეს Wishlist ეს ის გულები ორა
+//უნდა ქონდეს cart-ი
+//და ორდერბი orders //შელვეთილები
+
 @Schema({ timestamps: true })
 export class User {
   @Prop({ type: String })
