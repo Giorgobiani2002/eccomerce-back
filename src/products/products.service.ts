@@ -13,6 +13,13 @@ export class ProductsService implements OnModuleInit {
 
   async onModuleInit() {
     try {
+      const existingProductsCount = await this.productModel.countDocuments();
+      if (existingProductsCount > 0) {
+        console.log(
+          'Products already exist in the database. Skipping insertion.',
+        );
+        return;
+      }
       const filePath = path.join(
         __dirname,
         '..',
@@ -40,6 +47,11 @@ export class ProductsService implements OnModuleInit {
 
   findAll() {
     return this.productModel.find();
+  }
+
+  async deleteAll() {
+    const result = await this.productModel.deleteMany({});
+    return { message: `Deleted ${result.deletedCount} products.` };
   }
 
   findOne(id: string): Promise<Product> {
