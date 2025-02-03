@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Modern Sofa",
+    "desc": "Comfortable 3-seater sofa with a sleek modern design",
+    "price": 499.99,
+    "imageUrl": "/product1.jpg",
+    "quantity": 0
+  },
+  {
+    "name": "Wooden Dining Table",
+    "desc": "Solid oak dining table with a polished finish",
+    "price": 799.99,
+    "imageUrl": "/product2.jpg",
+    "quantity": 0
+  },
+  {
+    "name": "LED Floor Lamp",
+    "desc": "Minimalist LED floor lamp with adjustable brightness",
+    "price": 79.99,
+    "imageUrl": "/product3.jpg",
+    "quantity": 0
+  },
+  {
+    "name": "Memory Foam Mattress",
+    "desc": "King-size memory foam mattress for ultimate comfort",
+    "price": 399.99,
+    "imageUrl": "/product4.jpg",
+    "quantity": 0
+  },
+  {
+    "name": "Kitchen Storage Rack",
+    "desc": "Multi-tier kitchen rack for organized storage",
+    "price": 59.99,
+    "imageUrl": "/product1.jpg",
+    "quantity": 0
+  },
+  {
+    "name": "Bathroom Mirror Cabinet",
+    "desc": "Wall-mounted mirror cabinet with storage shelves",
+    "price": 129.99,
+    "imageUrl": "/product4.jpg",
+    "quantity": 0
+  }
+]
