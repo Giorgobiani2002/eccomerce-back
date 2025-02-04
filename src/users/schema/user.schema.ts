@@ -2,6 +2,12 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document, Schema as MongooseSchema } from 'mongoose';
 // import * as bcrypt from 'bcryptjs';
 
+//!და კოლექციები
+//უნდა ქონდეს products
+//უნდა ქონდეს Wishlist ეს ის გულები ორა
+//უნდა ქონდეს cart-ი
+//და ორდერბი orders //შელვეთილები
+
 @Schema({ timestamps: true })
 export class User extends Document {
   @Prop({ type: String, required: true })
