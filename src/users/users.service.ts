@@ -22,10 +22,7 @@ export class UsersService {
     const existUser = await this.usersModel.findOne({
       email: createUserDto.email,
     });
-    // anu is bcrypt js it shvebodi ro schemis doneze pirdapir imas hashavdi rac arasworia
-    // bandzi tutoriali naxe savaraudod :d exa gaswroda mushoabs gijivit
-    // debuging unda miyve line by line logicas ris mere ras idzaxebs rato idzaxebs ra abrunebs am pasuxs da a.sh.
-    // wavedi aba dalshe mixede shenit
+    
     if (existUser) {
       throw new BadRequestException('user already exist');
     }

@@ -35,7 +35,7 @@ export class UsersController {
 
   @Get()
   findAll() {
-    return this.usersService.findAll();
+    return this.usersService.findAll().populate({ path: 'order' });
   }
   @Get('profile')
   @UseGuards(JwtAuthGuard)
@@ -44,8 +44,9 @@ export class UsersController {
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.usersService.findOne(id);
+  async findOne(@Param('id') id: string) {
+    const user = await this.usersService.findOne(id);
+    return user.populate({ path: 'order' });
   }
 
   @Patch(':id')

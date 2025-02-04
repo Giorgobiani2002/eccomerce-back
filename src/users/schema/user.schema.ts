@@ -18,20 +18,12 @@ export class User extends Document {
 
   @Prop({ type: [MongooseSchema.Types.ObjectId], ref: 'order', default: [] })
   order: MongooseSchema.Types.ObjectId[];
+  
 
   
-  // async comparePassword(enteredPassword: string): Promise<boolean> {
-  //   return bcrypt.compare(enteredPassword, this.password);
-  // }
+  
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
 
 
-// UserSchema.pre('save', async function (next) {
-//   if (!this.isModified('password')) return next();
-//   this.password = await bcrypt.hash(this.password, 10);
-//   next();
-// });
-
-//es raaru? anu sxva bcriptit uheshavdi parols users da magito ar mushobda mere bcryptis compare
