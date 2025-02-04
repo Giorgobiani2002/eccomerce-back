@@ -8,7 +8,6 @@ import { UsersModule } from './users/users.module';
 import { ProductsModule } from './products/products.module';
 import { OrderModule } from './order/order.module';
 import { CartModule } from './cart/cart.module';
-import { OrdersModule } from './orders/orders.module';
 import { WishlistModule } from './wishlist/wishlist.module';
 
 @Module({
@@ -21,7 +20,6 @@ import { WishlistModule } from './wishlist/wishlist.module';
     ProductsModule,
     OrderModule,
     CartModule,
-    OrdersModule,
     WishlistModule,
   ],
   controllers: [AppController],

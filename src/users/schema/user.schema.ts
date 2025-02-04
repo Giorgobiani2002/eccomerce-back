@@ -25,14 +25,12 @@ export class User extends Document {
   @Prop({ type: [MongooseSchema.Types.ObjectId], ref: 'order', default: [] })
   order: MongooseSchema.Types.ObjectId[];
 
-  
   // async comparePassword(enteredPassword: string): Promise<boolean> {
   //   return bcrypt.compare(enteredPassword, this.password);
   // }
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
-
 
 // UserSchema.pre('save', async function (next) {
 //   if (!this.isModified('password')) return next();
