@@ -6,20 +6,14 @@ import { NestExpressApplication } from '@nestjs/platform-express'; // Import Exp
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
-  app.enableCors({
-    origin: 'http://localhost:3001',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    credentials: true,
-  });
+  app.enableCors();
 
-  
- 
   app.useGlobalPipes(
     new ValidationPipe({
       transform: true,
     }),
   );
 
-  await app.listen(3001);
+  await app.listen(10000);
 }
 bootstrap();

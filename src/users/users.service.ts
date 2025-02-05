@@ -35,7 +35,7 @@ export class UsersService {
   async signin(email: string, password: string) {
     const user = await this.usersModel.findOne({ email });
 
-    if (!user) throw new NotFoundException('User not found');
+    if (!user) throw new NotFoundException('User not registered');
     console.log('current pasword,', password);
     console.log('hashed password in database', user.password);
 
@@ -51,7 +51,7 @@ export class UsersService {
     console.log('Password check', isPasswordValid);
 
     console.log('Hashed password:', user.password);
-    if (!isPasswordValid) throw new BadRequestException('Invalid credentials');
+    if (!isPasswordValid) throw new BadRequestException('Invalid password or email');
 
     const token = this.jwtService.sign({ id: user._id, email: user.email });
 
