@@ -6,11 +6,7 @@ import { NestExpressApplication } from '@nestjs/platform-express'; // Import Exp
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
-  app.enableCors({
-    origin: ['https://eccomerce-back-klm1.onrender.com/'],
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    allowedHeaders: 'Content-Type, Accept',
-  });
+  app.enableCors();
 
   app.useGlobalPipes(
     new ValidationPipe({
