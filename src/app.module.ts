@@ -14,9 +14,8 @@ import { WishlistModule } from './wishlist/wishlist.module';
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
-    MongooseModule.forRoot(
-      'mongodb+srv://admin:admin@eccomerce.z2ivo.mongodb.net/?retryWrites=true&w=majority&appName=eccomerce',
-    ),
+    MongooseModule.forRoot(process.env.MONGO_URL),
+    
     UsersModule,
     ProductsModule,
     OrderModule,
