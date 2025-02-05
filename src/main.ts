@@ -6,7 +6,11 @@ import { NestExpressApplication } from '@nestjs/platform-express'; // Import Exp
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
-  app.enableCors();
+  app.enableCors({
+    origin: ['http://localhost:3000', 'https://ecomerce-one-rho.vercel.app'], // Add Vercel domain here
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    allowedHeaders: 'Content-Type, Accept',
+  });
 
   app.useGlobalPipes(
     new ValidationPipe({
