@@ -1,44 +1,230 @@
 [
   {
-    "name": "Modern Sofa",
-    "desc": "Comfortable 3-seater sofa with a sleek modern design",
-    "price": 499.99,
+    "discount": "50%",
+    "rating": 5,
+    "isNew": true,
+    "image": "loveseat-sofa.jpg",
     "imageUrl": "/product1.jpg",
-    "quantity": 0
+    "color": ["black"],
+    "measurements": "17 1/2x20 5/8",
+    "name": "Tray Table",
+    "reviews": 11,
+    "description": "Buy one or buy a few and make every space where you sit more convenient. Light and easy to move around with removable tray top, handy for serving snacks.",
+    "imagesCH": ["trayTableIMG1", "trayTableIMG3", "trayTableIMG4"],
+    "stars": ["star", "star", "star", "star", "star"],
+    "category": "Living Room",
+    "price": 199.99,
+    "oldPrice": 400,
+    "wishlist": false,
+    "quantity": 1,
+    "SKU": "1117",
+    "chooseColor": [
+      {
+        "img": "trayTableClr1",
+        "color": "black"
+      },
+      {
+        "img": "trayTableClr2",
+        "color": "brown"
+      },
+      {
+        "img": "trayTableClr3",
+        "color": "red"
+      },
+      {
+        "img": "trayTableClr4",
+        "color": "white"
+      }
+    ]
   },
   {
-    "name": "Wooden Dining Table",
-    "desc": "Solid oak dining table with a polished finish",
-    "price": 799.99,
+    "name": "Luxury Sofa",
+    "price": 299,
+    "oldPrice": 500,
+    "discount": "50%",
+    "rating": 5,
+    "isNew": true,
     "imageUrl": "/product2.jpg",
-    "quantity": 0
+    "image": "luxury-sofa.jpg",
+    "color": ["black"],
+    "measurements": "17 1/2x20 5/8",
+    "reviews": 11,
+    "description": "Elegant and comfortable, this luxury sofa enhances any living space with its modern design and premium upholstery.",
+    "images": ["trayTableIMG1", "trayTableIMG3", "trayTableIMG4"],
+    "stars": ["star", "star", "star", "star", "star"],
+    "category": "Living Room",
+    "wishlist": false,
+    "quantity": 1,
+    "SKU": "1118",
+    "chooseColor": [
+      {
+        "img": "trayTableClr1",
+        "color": "black"
+      },
+      {
+        "img": "trayTableClr2",
+        "color": "brown"
+      },
+      {
+        "img": "trayTableClr3",
+        "color": "red"
+      },
+      {
+        "img": "trayTableClr4",
+        "color": "white"
+      }
+    ]
   },
   {
-    "name": "LED Floor Lamp",
-    "desc": "Minimalist LED floor lamp with adjustable brightness",
-    "price": 79.99,
+    "name": "Luxury Sofa",
+    "price": 299,
+    "oldPrice": 500,
+    "discount": "50%",
+    "rating": 5,
+    "isNew": true,
     "imageUrl": "/product3.jpg",
-    "quantity": 0
+    "image": "luxury-sofa.jpg",
+    "color": ["black"],
+    "measurements": "17 1/2x20 5/8",
+    "reviews": 11,
+    "description": "Elegant and comfortable, this luxury sofa enhances any living space with its modern design and premium upholstery.",
+    "images": ["trayTableIMG1", "trayTableIMG3", "trayTableIMG4"],
+    "stars": ["star", "star", "star", "star", "star"],
+    "category": "Living Room",
+    "wishlist": false,
+    "quantity": 1,
+    "SKU": "1119",
+    "chooseColor": [
+      {
+        "img": "trayTableClr1",
+        "color": "black"
+      },
+      {
+        "img": "trayTableClr2",
+        "color": "brown"
+      },
+      {
+        "img": "trayTableClr3",
+        "color": "red"
+      },
+      {
+        "img": "trayTableClr4",
+        "color": "white"
+      }
+    ]
   },
   {
-    "name": "Memory Foam Mattress",
-    "desc": "King-size memory foam mattress for ultimate comfort",
-    "price": 399.99,
+    "name": "Luxury Sofa",
+    "price": 299,
+    "oldPrice": 500,
+    "discount": "50%",
+    "rating": 5,
+    "isNew": true,
     "imageUrl": "/product4.jpg",
-    "quantity": 0
+    "image": "luxury-sofa.jpg",
+    "color": ["black"],
+    "measurements": "17 1/2x20 5/8",
+    "reviews": 11,
+    "description": "Elegant and comfortable, this luxury sofa enhances any living space with its modern design and premium upholstery.",
+    "images": ["trayTableIMG1", "trayTableIMG3", "trayTableIMG4"],
+    "stars": ["star", "star", "star", "star", "star"],
+    "category": "Living Room",
+    "wishlist": false,
+    "quantity": 1,
+    "SKU": "1120",
+    "chooseColor": [
+      {
+        "img": "trayTableClr1",
+        "color": "black"
+      },
+      {
+        "img": "trayTableClr2",
+        "color": "brown"
+      },
+      {
+        "img": "trayTableClr3",
+        "color": "red"
+      },
+      {
+        "img": "trayTableClr4",
+        "color": "white"
+      }
+    ]
   },
   {
-    "name": "Kitchen Storage Rack",
-    "desc": "Multi-tier kitchen rack for organized storage",
-    "price": 59.99,
+    "name": "Luxury Sofa",
+    "price": 299,
+    "oldPrice": 500,
+    "discount": "50%",
+    "rating": 5,
+    "isNew": true,
     "imageUrl": "/product1.jpg",
-    "quantity": 0
+    "image": "luxury-sofa.jpg",
+    "color": ["black"],
+    "measurements": "17 1/2x20 5/8",
+    "reviews": 11,
+    "description": "Elegant and comfortable, this luxury sofa enhances any living space with its modern design and premium upholstery.",
+    "images": ["trayTableIMG1", "trayTableIMG3", "trayTableIMG4"],
+    "stars": ["star", "star", "star", "star", "star"],
+    "category": "Living Room",
+    "wishlist": false,
+    "quantity": 1,
+    "SKU": "1121",
+    "chooseColor": [
+      {
+        "img": "trayTableClr1",
+        "color": "black"
+      },
+      {
+        "img": "trayTableClr2",
+        "color": "brown"
+      },
+      {
+        "img": "trayTableClr3",
+        "color": "red"
+      },
+      {
+        "img": "trayTableClr4",
+        "color": "white"
+      }
+    ]
   },
   {
-    "name": "Bathroom Mirror Cabinet",
-    "desc": "Wall-mounted mirror cabinet with storage shelves",
-    "price": 129.99,
-    "imageUrl": "/product4.jpg",
-    "quantity": 0
+    "name": "Luxury Sofa",
+    "price": 299,
+    "oldPrice": 500,
+    "discount": "50%",
+    "rating": 5,
+    "isNew": true,
+    "imageUrl": "/product1.jpg",
+    "image": "luxury-sofa.jpg",
+    "color": ["black"],
+    "measurements": "17 1/2x20 5/8",
+    "reviews": 11,
+    "description": "Elegant and comfortable, this luxury sofa enhances any living space with its modern design and premium upholstery.",
+    "images": ["trayTableIMG1", "trayTableIMG3", "trayTableIMG4"],
+    "stars": ["star", "star", "star", "star", "star"],
+    "category": "Living Room",
+    "wishlist": false,
+    "quantity": 1,
+    "SKU": "1122",
+    "chooseColor": [
+      {
+        "img": "trayTableClr1",
+        "color": "black"
+      },
+      {
+        "img": "trayTableClr2",
+        "color": "brown"
+      },
+      {
+        "img": "trayTableClr3",
+        "color": "red"
+      },
+      {
+        "img": "trayTableClr4",
+        "color": "white"
+      }
+    ]
   }
 ]
